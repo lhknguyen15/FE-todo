@@ -7,7 +7,7 @@ import AddTodoModal from "../../components/Todo/AddTodoModal";
 import { logout } from "../../redux/slices/authSlice";
 import { RootState } from "../../redux/store";
 import NavBar from "./NavBar";
-import TodoList from "@/components/Todo/TodoList";
+import TodoList from "../../components/Todo/Todolist";
 
 interface DecodedToken {
   exp: number;
